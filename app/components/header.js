@@ -11,8 +11,6 @@ export default function Header(){
                 height={61}
                 width={387}
                 alt="Promautomatika logo"/></Link>
-            <h1>Производитель шкафов автоматики и дистрибьютор насосного оборудования KSB и контроллеров Unitronics
-                в Узбекистане</h1>
             <div className="requisites">
                 <div className="location">
                     <FontAwesomeIcon icon={faLocationDot} className="icon"/>

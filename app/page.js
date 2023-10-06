@@ -17,13 +17,13 @@ export default function Home() {
               </div>
 
               <div className="caption">
-                  <h2>ШКАФЫ УПРАВЛЕНИЯ НАСОСАМИ</h2>
+                  <h1>ШКАФЫ АВТОМАТИКИ И УПРАВЛЕНИЯ</h1>
+                  <h2>Разработка и производство под заказ в Узбекистане</h2>
                   <ul>
-                      <li>Разработка, производство шкафов управления для насосов</li>
+                      <li>Собственное производство</li>
                       <li>Автоматизация систем управления</li>
                       <li>SKADA системы для мониторинга оборудования</li>
                       <li>Шкафы автоматики с локальным ПЛК</li>
-                      <li>Подбор и установка оборудования KSB и Unitronics</li>
                   </ul>
               </div>
           </div>
@@ -34,19 +34,19 @@ export default function Home() {
           </div>
           <div className="features">
 
-              <Features icon="icon1"
+              <Features icon={faThumbsUp}
                     title="Качество"
                     desc="Качественная сборка щитов по последним технологиям" />
-              <Features icon="icon2"
+              <Features icon={faWallet}
                         title="Оптимальные цены"
                         desc="Оптимальное соотношение цены и качества" />
-              <Features icon="icon3"
+              <Features icon={faCheck}
                         title="ГАРАНТИЯ"
                         desc="Гарантия на продукцию 2 года с техобслуживанием" />
-              <Features icon="icon4"
+              <Features icon={faCalendar}
                         title="СРОКИ"
                         desc="Оперативные сроки выполнения, за счет ответственного подхода к делу" />
-              <Features icon="icon5"
+              <Features icon={faGears}
                         title="ТЕХПОДДЕРЖКА"
                         desc="Круглосуточная техническая поддержка" />
 
